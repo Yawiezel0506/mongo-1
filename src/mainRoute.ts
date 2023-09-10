@@ -1,5 +1,4 @@
 import express, {Router, Response, Request} from "express";
-import productsRoute from "./products/products.route"
 import productsMongoRoute from "./products-mongo/products.mongo.route"
 
 const route: Router = express.Router()
