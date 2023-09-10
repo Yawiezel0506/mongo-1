@@ -7,7 +7,6 @@ route.get('/', (req: Request, res: Response) => {
     res.send('Hello To My Node-Ts Project!')
 })
 
-route.use("/products", productsRoute)
 route.use("/mongoProducts", productsMongoRoute)
 
 export default route
